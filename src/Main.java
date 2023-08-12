@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
         public static void task1 () {
             System.out.println("Задача 1 \n");
@@ -71,6 +72,22 @@ public class Main {
                 System.out.println("можно кататься на аттракционе в сопровождении взрослого \n");
             } else if (howOldKid >= 14) {
                 System.out.println("можно кататься на аттракционе без сопровождения взрослого \n");
+            }
+        }
+
+
+        public static void task6 () {
+            System.out.println("Задача 6 \n");
+            int totalSeats = 102;
+            int sitting = 60;
+            int howManyPeople = 66;
+            System.out.println("В вагоне ");
+            if (howManyPeople < sitting) {
+                System.out.println("есть сидячие места \n");
+            } else if (howManyPeople > sitting && howManyPeople < totalSeats) {
+                System.out.println("есть только стоячие места \n");
+            } else if (howManyPeople >= totalSeats) {
+                System.out.println("нет мест \n");
             }
         }
 
