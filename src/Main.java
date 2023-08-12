@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
         public static void task1 () {
             System.out.println("Задача 1 \n");
@@ -88,6 +89,22 @@ public class Main {
                 System.out.println("есть только стоячие места \n");
             } else if (howManyPeople >= totalSeats) {
                 System.out.println("нет мест \n");
+            }
+        }
+
+
+        public static void task7 () {
+            System.out.println("Задача 7 \n");
+            int one = 55;
+            int two = 41;
+            int three = 23;
+            System.out.println("Из трех чисел большее - ");
+            if (one > two && one > three) {
+                System.out.println(one);
+            } else if (two > one && two > three) {
+                System.out.println(two);
+            } else if (three > one && three > two) {
+                System.out.println(three);
             }
         }
 
