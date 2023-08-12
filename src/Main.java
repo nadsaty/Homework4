@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
     }
         public static void task1 () {
             System.out.println("Задача 1 \n");
@@ -36,8 +37,8 @@ public class Main {
                 System.out.println("придется заплатить штраф \n");
             } else if (speed <= 60) {
                 System.out.println("можно ездить спокойно \n");
+            }
         }
-    }
 
 
         public static void task4 () {
@@ -56,6 +57,20 @@ public class Main {
                 System.out.println("ему пора ходить на работу \n");
             } else if (howOld > 60) {
                 System.out.println("он может отдохнуть \n");
+            }
+        }
+
+
+        public static void task5 () {
+            System.out.println("Задача 5 \n");
+            int howOldKid = 16;
+            System.out.println("Если возраст равен " + howOldKid + ", то ему ");
+            if (howOldKid < 5) {
+                System.out.println("нельзя кататься на аттракционе \n");
+            } else if (howOldKid >= 5 && howOldKid < 14) {
+                System.out.println("можно кататься на аттракционе в сопровождении взрослого \n");
+            } else if (howOldKid >= 14) {
+                System.out.println("можно кататься на аттракционе без сопровождения взрослого \n");
             }
         }
 
